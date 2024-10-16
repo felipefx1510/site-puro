@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-image: linear-gradient(to bottom, #151515, #000000);
+    font-family: Poppins;
+    
+  }
+
+.container1{
+    color: #fff;
+    background-image: linear-gradient(to top, #151515, #0e0e0e 40%);
+    text-align: center;
+    padding: 200px;
+    margin: 300px;
+    border-radius: 10px;
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+
+.google, .facebook, .telefone, .apple {
+    --md-sys-color-primary: rgba(0, 0, 0, 0.032);
+    --md-sys-color-on-primary: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 25px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    bottom: 50px;
+    font-family: Poppins;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.google .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.facebook .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.apple .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+hr {
+    border: 0.5px solid #fff;
+    margin: 20px;
+    position: relative;
+    bottom: 25px;
+    opacity: 0.3;
+}
+
+.entrar {
+    --md-sys-color-primary: rgba(30, 215, 96, 1 );
+    --md-sys-color-on-primary: #fff;
+    font-family: Poppins;
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+md-filled-text-field.usuario, md-filled-text-field.senha {
+    --md-sys-color-primary: #fff;
+    --md-sys-color-surface-container-highest: #14151500;
+    --md-filled-text-field-label-text-color: #fff;
+    --md-filled-text-field-input-text-color: #fff;
+    /* desisto de tentar fazer funcionar a cor do input*/
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.login-container {
+    position: relative;
+    top: 20px
+}

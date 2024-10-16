@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/registro.css">    
+    <title>Login</title>
+    <script type="importmap">
+        {
+          "imports": {
+            "@material/web/": "https://esm.run/@material/web/"
+          }
+        }
+    </script>
+    <script type="module" src="static/scripts.js"></script>
+    
+</head>
+<body>
+    <div class="container1">
+        <img src="static/spotify.svg" alt="spotify logo" class="logo">
+        <h1>Se inscreva-se e comece a curtir</h1>
+        <div>
+            <md-filled-button class="google">
+                <img src="static/google.svg" alt="google logo" class="icon">
+                Inscrever-se com o Google
+            </md-filled-button>
+        </div>
+        <div>
+            <md-filled-button class="facebook">
+                <img src="static/facebook.svg" alt="facebook logo" class="icon">
+                Inscreve-se com o Facebook
+            </md-filled-button>
+        </div>
+        <div>
+            <md-filled-button class="apple">
+                <img src="static/apple.svg" alt="apple logo" class="icon">
+                Criar conta com a Apple
+            </md-filled-button>
+        </div>
+        <div>
+            <md-filled-button class="telefone">Continuar com o número de telefone</md-filled-button>
+        </div>
+        <hr>
+        <form action="#" method="POST">
+            <label for="usuario">Email ou nome de usuário:</label>
+            <div>
+                <md-filled-text-field class="usuario" label="Email ou usuário" type="text" id="usuario" name="usuario"></md-filled-text-field>
+            </div>
+            <label for="senha">Senha:</label>
+           <div>
+                <md-filled-text-field class="senha" label="Senha" type="password" id="senha" name="senha"></md-filled-text-field>
+           </div>
+            <md-filled-button class="entrar">
+                Entrar
+            </md-filled-button>
+        </form>
+        <div class="login-container">
+            <p>Já tem uma conta? <a href="index.html">Entrar</a></p>
+        </div>
+    </div class="container1">
+</body>
+</html>
